@@ -2,13 +2,13 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/rousuy/InterviewGFT.git)
 ![APM](https://img.shields.io/apm/l/vim-mode?logo=License)
 
-<center> <h1>InterviewGFT</h1></center>
-<center> <h2><p>Entrevista técnica GFT Brasil</p><h2></center>
+<center><h1>InterviewGFT</h1></center>
+<center><h2><p>Entrevista técnica GFT Brasil</p><h2></center>
 <br>
 
 #### **Data**: 09/02/2022
-#### **Entrevistador**: 
-#### **Entrevistado**: Rodrigo Usuy
+#### **Entrevistador**: Ubiratan Roberte Cardoso Passos
+#### **Entrevistado:** Rodrigo Usuy
 <br>
 
 
