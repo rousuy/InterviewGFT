@@ -1,0 +1,15 @@
+/home/rodrigo/Documents/Development/entrevistas/teste/bin/Debug/net6.0/teste
+/home/rodrigo/Documents/Development/entrevistas/teste/bin/Debug/net6.0/teste.deps.json
+/home/rodrigo/Documents/Development/entrevistas/teste/bin/Debug/net6.0/teste.runtimeconfig.json
+/home/rodrigo/Documents/Development/entrevistas/teste/bin/Debug/net6.0/teste.dll
+/home/rodrigo/Documents/Development/entrevistas/teste/bin/Debug/net6.0/ref/teste.dll
+/home/rodrigo/Documents/Development/entrevistas/teste/bin/Debug/net6.0/teste.pdb
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/teste.csproj.AssemblyReference.cache
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/teste.GeneratedMSBuildEditorConfig.editorconfig
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/teste.AssemblyInfoInputs.cache
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/teste.AssemblyInfo.cs
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/teste.csproj.CoreCompileInputs.cache
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/teste.dll
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/ref/teste.dll
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/teste.pdb
+/home/rodrigo/Documents/Development/entrevistas/teste/obj/Debug/net6.0/teste.genruntimeconfig.cache
