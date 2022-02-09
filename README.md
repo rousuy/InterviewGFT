@@ -3,3 +3,8 @@
 
 # InterviewGFT
 Entrevista técnica GFT Brasil
+####Data: 09/02/2022
+####Entrevistado: Rodrigo Usuy
+####Entrevistador: 
+####Agradecimentos:<br> 
+GFT Brasil / Digital Innovation Onde (DIO)
