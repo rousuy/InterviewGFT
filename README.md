@@ -6,6 +6,8 @@
 ## Entrevista técnica GFT Brasil
 #### Data: 09/02/2022
 #### Entrevistado: Rodrigo Usuy
+
+![005-github-1](https://user-images.githubusercontent.com/76751870/153108542-62e0a78a-95f1-4935-ae89-6062186153c5.png)
 #### Entrevistador: 
 <footer>
 Agradecimentos:<br> 
