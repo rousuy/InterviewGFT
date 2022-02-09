@@ -47,5 +47,3 @@ Usar inputs abaixo e imprimir no console os resultados.
 
 
 
-
-// Mago mago = new Mago("Mago Bruxo", 43, 5);
