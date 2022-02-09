@@ -1,5 +1,4 @@
 ﻿using System;
-using teste.Entities.JogoRpg;
 using static System.Console;
 /*
 
