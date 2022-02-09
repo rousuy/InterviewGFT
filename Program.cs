@@ -45,15 +45,6 @@ Usar inputs abaixo e imprimir no console os resultados.
 */
 
 
-String[] strVet = ReadLine().Split(" ");
-
-int length = strVet.ToString().Length;
-
-int[] intVet = new int[length];
-for (int i = 0; i < length; i++){
-    intVet[i] = int.Parse(strVet[i]);
-}
-
 
 
 
