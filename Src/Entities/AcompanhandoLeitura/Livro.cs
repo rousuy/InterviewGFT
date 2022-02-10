@@ -9,10 +9,9 @@ namespace teste2.Src.Entities.AcompanhandoLeitura
         public int PaginasLidas { get; private set; }
 
         // CONSTRUTOR
-        public Livro(string titulo, int qtdePaginas, int paginasLidas){
+        public Livro(string titulo, int qtdePaginas){
             this.Titulo = titulo;
             this.QtdPagina = qtdePaginas;
-            this.PaginasLidas = paginasLidas;
         }
 
         //MÉTODOS

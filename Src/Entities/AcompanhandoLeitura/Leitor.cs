@@ -8,12 +8,12 @@ namespace teste2.Src.Entities.AcompanhandoLeitura
         // ATRIBUTOS
         public string Nome { get; private set; }
         public Livro Livros { get; set; }  
-        public List<Livro> EstanteLivros { get; set; } = new List<Livro>();
+        public List<Livro> EstanteLivros { get; set; } 
 
         // CONSTRUTOR
-        public Leitor(string nome, Livro livro){
+        public Leitor(string nome, Livro livros){
             this.Nome = nome;
-            this.Livros = livro;  
+            this.EstanteLivros = new List<Livro>();
         }
 
         //MÉTODOS
