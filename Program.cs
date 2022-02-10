@@ -32,4 +32,3 @@ while (!IsEqual(randInt, userInt)){
 
 // Instanciando novo objeto no stack
 
-
