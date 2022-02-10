@@ -84,5 +84,5 @@ try{
     }
 }
 catch(Exception e){
-    WriteLine($"Tamanho do vetores diferentes {e}");
+    WriteLine($"Tamanho dos vetores diferentes {e}");
 }
