@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rodrigo/Documents/Development/entrevistas/teste/teste.csproj",
-      "projectName": "teste",
-      "projectPath": "/home/rodrigo/Documents/Development/entrevistas/teste/teste.csproj",
+      "projectUniqueName": "/home/rodrigo/Documents/Development/entrevistas/teste2/teste2.csproj",
+      "projectName": "teste2",
+      "projectPath": "/home/rodrigo/Documents/Development/entrevistas/teste2/teste2.csproj",
       "packagesPath": "/home/rodrigo/.nuget/packages/",
-      "outputPath": "/home/rodrigo/Documents/Development/entrevistas/teste/obj/",
+      "outputPath": "/home/rodrigo/Documents/Development/entrevistas/teste2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/rodrigo/.nuget/NuGet/NuGet.Config"
