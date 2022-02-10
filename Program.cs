@@ -79,3 +79,13 @@ int[] array1 = MultiplyVet(vet1, vet2);
 int[] array2 = MultiplyVet(vetA, vetB);
 int[] array3 = MultiplyVet(vetFoo, vetBar);
 int[] array4 = MultiplyVet(vetX, vetY);
+
+/*
+Acompanhamento leitura
+
+Criar classes leitor e livro, O leitor ao ser criado deve ser automaticamente criado junto e adicionado a sua estante seu livro favorito. O método de remover livro deve remover da estante do leitor e zerar a quantidade de páginas lidas.
+
+O método que verifica o progresso de leitura do livro deve retornar o valor percentual com relação a quantidade total de páginas arredondado para baixo. (Ex.: 85,3% = 85%).
+
+Demonstrar todos os métodos instanciando livros e leitor, criando uma classe main para executar e imprimir todos os resultados de alterações dos métodos.
+*/
