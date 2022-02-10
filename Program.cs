@@ -42,47 +42,41 @@ Usar inputs abaixo e imprimir no console os resultados.
 [60, 70] x [1, 2, 3]
 */
 
-static int[] ConvertToInt(ref string strValor){
-    int length = strValor.ToString().Length;
-    List<int> listaInt = new List<int>();
-    
-    for (int i = 0; i < length; i++)
-    {
-        if (strValor[i] >= '0' && strValor[i] <= '9'){
-            string val = strValor[i].ToString();
-            int num = int.Parse(val);
-            listaInt.Add(num);
+static int[] MultiplyVet( int[] arrayF, int[] arrayJ){
+    try{
+        int[] result = new int[arrayJ.Length];
+        for (int i = 0; i < result.Length; i++){       
+            result[i] = arrayF[i] * arrayJ[i];
+            if (i == 0)
+                Write($"[{result[i]}, ");
+            else if (i == arrayJ.Length - 1)
+                Write($"{result[i]}]");
+            else
+                Write($"{result[i]}, ");
         }
+        WriteLine();
+        return result;
     }
-    int[] intArray = listaInt.ToArray();
-    return intArray;
-}
-
-static int[] MultiplyArray(int[] arr1, int[] arr2){
-    int[] newIntArray = new int[arr1.Length];
-    for (int i = 0; i < arr1.Length; i++){
-        newIntArray[i] = arr1[i] * arr2[i];
+    catch(Exception e){
+        WriteLine();
+        WriteLine($"Tamanho dos vetores diferentes! Erro: {e}");
     }
-    return newIntArray;
+    return null;
 }
+int[] vet1 = new int[4] {10, 5, 98, 452};
+int[] vet2 = new int[4] {10, 5, 98, 452};
 
-WriteLine("Digite os valores: ");
-string[] strVetValores = ReadLine().Split("x");
+int[] vetA = new int[3] {548, 213, 10};
+int[] vetB = new int[3] {5, 21, 12};
 
-string strValor1 = strVetValores[0];
-string strValor2 = strVetValores[1];
+int[] vetFoo = new int[3] {50, 60, 70};
+int[] vetBar = new int[3] {5, 21, 12 };
 
-try{
-    int[] intVetValor1;
-    int[] intVetValor2;
-    int[] resultado;
-    intVetValor1 = ConvertToInt(ref strValor1);
-    intVetValor2 = ConvertToInt(ref strValor2);
-    resultado = MultiplyArray(intVetValor1, intVetValor2);
-    foreach (int i in resultado){
-        Write($"{i} ");
-    }
-}
-catch(Exception e){
-    WriteLine($"Tamanho dos vetores diferentes {e}");
-}
+int[] vetX = new int[2] {60, 70};
+int[] vetY = new int[3] {1, 2, 3};
+
+int[] array1 = MultiplyVet(vet1, vet2);
+int[] array2 = MultiplyVet(vetA, vetB);
+int[] array3 = MultiplyVet(vetFoo, vetBar);
+int[] array4 = MultiplyVet(vetX, vetY);
+
