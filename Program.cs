@@ -79,4 +79,3 @@ int[] array1 = MultiplyVet(vet1, vet2);
 int[] array2 = MultiplyVet(vetA, vetB);
 int[] array3 = MultiplyVet(vetFoo, vetBar);
 int[] array4 = MultiplyVet(vetX, vetY);
-
