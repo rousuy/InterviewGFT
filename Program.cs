@@ -29,20 +29,7 @@ while (!IsEqual(randInt, userInt)){
     userInt = int.Parse(ReadLine());
 }
 
-/*
-Multiplicando arrays
 
-Criar um método que realiza a multiplicação de dois arrays e seus resultados são
-armazenados gerando um novo array.
-O programa deve validar se os arrays são do mesmo tamanho, caso não sejam, deve gerar
-uma exceção personalizada informando o erro.
-Usar inputs abaixo e imprimir no console os resultados.
-[10, 5, 98, 452] x [10, 5, 98, 452]
-[548, 213, 10] x [5, 21, 12]
-[50, 60, 70] x [5, 21, 12]
-[60, 70] x [1, 2, 3]
-*/
-
-
+// Instanciando novo objeto no stack
 
 
