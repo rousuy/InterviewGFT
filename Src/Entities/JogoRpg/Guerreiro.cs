@@ -18,6 +18,7 @@ namespace teste2.Src.Entities.JogoRpg
             this.Forca += 2;
             this.Vida += 2;
             this.Mana += 1;
+            this.Inteligencia += 1;
         }
 
         public void AprenderHabilidade(string habilidade){
@@ -30,7 +31,6 @@ namespace teste2.Src.Entities.JogoRpg
             float pontos = (float)((this.Forca / 2) * Math.Pow(this.Level,2)) + randInt;
             this.Xp += pontos;
             return $"{this.Nome} ganhou {pontos} pontos"; 
-
         }
 
         public override string ToString(){
@@ -46,5 +46,5 @@ namespace teste2.Src.Entities.JogoRpg
                 + $"XP: {this.Xp} pontos.\n"
                 + $"================================\n";
         }
-    }
+    }     
 }
