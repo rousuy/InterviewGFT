@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using teste2.Src.Entities.AcompanhandoLeitura;
 using teste2.Src.Entities.JogoRpg;
 using static System.Console;
-/*
 
+/*
 Acertar n° aleatório
 
 Gere um número inteiro aleatório entre 0 e 10 a cada execução do programa(Biblioteca
@@ -127,7 +127,6 @@ foreach (var obj in leitor.EstanteLivros){
     }
 }
 
-
 /*
 Personagens RPG
 
@@ -141,28 +140,45 @@ Mago: ( Inteligência / 2 * Level² ) + numeroRandomico( 0 até 180).
 Guerreiro: ( Força / 2 * Level² ) + numeroRandomico( 0 até 180 )
 */
 
-Write("Nome: ");
-string magoNome = ReadLine();
-
-Mago mago = new Mago(magoNome) ;
-Write(mago);
-
-WriteLine();
-Write("Nome da magia: ");
-mago.AprenderMagia(ReadLine());
-
-WriteLine();
-foreach (string str in mago.Magia){
-    WriteLine($"Magia: {str}");
+WriteLine("Bem vindo ao Jogo.");
+WriteLine("O que deseja realiza? \n"
+    + "1 - Adicionar novo personagem \n"
+    + "2 - Selecionar um novo personagem \n");
+int  acao = int.Parse(ReadLine());
+switch(acao){
+    case 1: 
+        Write("Digite o tipo: [1] - Mago / [2] - Guerreiro ");
+        int tipoPersonagem = int.Parse(ReadLine());
+        switch(tipoPersonagem){
+            case 1:
+                Write("Nome do mago: ");
+                string nomeMago = ReadLine();
+                Mago mago = new Mago(nomeMago) ;
+                Write("Sucesso.");
+                break;
+            case 2:
+                Write("Nome do guerreiro: ");
+                string nomeGuerreiro = ReadLine();
+                Guerreiro guerreiro = new Guerreiro(nomeGuerreiro);
+                Write("Sucesso. ");
+                break;
+        }
+        break;
+    case 2: 
+        Write("Digite o tipo: [1] - Mago / [2] - Guerreiro ");
+        tipoPersonagem = int.Parse(ReadLine());
+        switch(tipoPersonagem){
+            case 1:
+                Write("Nome do mago: ");
+                string nomeMago = ReadLine(); 
+                Write("Sucesso.");
+                break;
+            case 2:
+                Write("Nome do guerreiro: ");
+                string nomeGuerreiro = ReadLine();
+                Guerreiro guerreiro = new Guerreiro(nomeGuerreiro);
+                Write("Sucesso. ");
+                break;
+        }
+    break;
 }
-
-WriteLine();
-mago.LvLUp();
-
-WriteLine();
-WriteLine(mago);
-
-WriteLine(mago.Attack());
-
-WriteLine();
-WriteLine(mago);
