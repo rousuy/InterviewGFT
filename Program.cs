@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using teste2.Src.Entities.AcompanhandoLeitura;
+using teste2.Src.Entities.JogoRpg;
 using static System.Console;
 /*
 
@@ -114,6 +115,7 @@ foreach (var obj in leitor.EstanteLivros){
             + $"PROGRESSO: ({obj.VerificaProgresso().ToString("F0")}%)");
 }
 
+
 leitor.RemoverLivro(livro);
 foreach (var obj in leitor.EstanteLivros){
     if (obj == null){
@@ -126,5 +128,41 @@ foreach (var obj in leitor.EstanteLivros){
 }
 
 
+/*
+Personagens RPG
 
+1. Usando o conceito de polimorfismo, implemente o método lvlUp(), de forma que o Mago ao subir de nível possua um aumento maior nos
+atributos Mana e Inteligência e o Guerreiro possua um aumento maior nos atributos Vida e Força.
 
+2. Implemente o método attack() de forma que siga a seguinte regra:
+
+Mago: ( Inteligência / 2 * Level² ) + numeroRandomico( 0 até 180).
+
+Guerreiro: ( Força / 2 * Level² ) + numeroRandomico( 0 até 180 )
+*/
+
+Write("Nome: ");
+string magoNome = ReadLine();
+
+Mago mago = new Mago(magoNome) ;
+Write(mago);
+
+WriteLine();
+Write("Nome da magia: ");
+mago.AprenderMagia(ReadLine());
+
+WriteLine();
+foreach (string str in mago.Magia){
+    WriteLine($"Magia: {str}");
+}
+
+WriteLine();
+mago.LvLUp();
+
+WriteLine();
+WriteLine(mago);
+
+WriteLine(mago.Attack());
+
+WriteLine();
+WriteLine(mago);
