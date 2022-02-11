@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace teste2.Src.Entities.AcompanhandoLeitura
 {
     // CLASSE
