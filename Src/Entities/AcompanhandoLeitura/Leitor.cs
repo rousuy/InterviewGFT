@@ -7,13 +7,13 @@ namespace teste2.Src.Entities.AcompanhandoLeitura
     {
         // ATRIBUTOS
         public string Nome { get; private set; }
-        public Livro Livros { get; set; }  
-        public List<Livro> EstanteLivros { get; set; } 
+        private Livro Livro { get; set; }  
+        public List<Livro> EstanteLivros { get; private set; } = new List<Livro>();
 
         // CONSTRUTOR
-        public Leitor(string nome, Livro livros){
+        public Leitor(string nome, Livro livro){
             this.Nome = nome;
-            this.EstanteLivros = new List<Livro>();
+            AdicionarLivro(livro);
         }
 
         //MÉTODOS
