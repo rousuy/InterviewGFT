@@ -17,8 +17,11 @@ namespace teste2.Src.Entities.JogoRpg
         }
 
         public override void LvLUp(){
-            this.Mana += 1;
-            this.Inteligencia += 1;
+            this.Level += 1;
+            this.Mana += 2;
+            this.Inteligencia += 2;
+            this.Forca += 1;
+            this.Vida += 1;
         }
 
         public virtual string Attack(){
