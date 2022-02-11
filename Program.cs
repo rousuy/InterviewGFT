@@ -12,6 +12,9 @@ Random tanto em Java como C#) e pergunte ao usuário um número. Se o usuário e
 peça para ele entrar com outro número até que acerte o número gerado aleatoriamente.
 */
 
+WriteLine("Acerte o número");
+WriteLine();
+
 static bool IsEqual(int randInt, int userInt){
     if (randInt == userInt){
         return true;
@@ -24,7 +27,7 @@ static bool IsEqual(int randInt, int userInt){
 Random rand = new Random();
 int randInt = rand.Next(0, 10);
 
-WriteLine("Digite um número: ");
+Write("Número: ");
 int userInt = int.Parse(ReadLine());
 
 while (!IsEqual(randInt, userInt)){
@@ -32,8 +35,14 @@ while (!IsEqual(randInt, userInt)){
     userInt = int.Parse(ReadLine());
 }
 
+WriteLine();
+WriteLine("------------------------------------------");
+WriteLine();
+Thread.Sleep(2000);
+
 /*
 Multiplicando arrays
+
 Criar um método que realiza a multiplicação de dois arrays e seus resultados são
 armazenados gerando um novo array.
 O programa deve validar se os arrays são do mesmo tamanho, caso não sejam, deve gerar
@@ -44,6 +53,9 @@ Usar inputs abaixo e imprimir no console os resultados.
 [50, 60, 70] x [5, 21, 12]
 [60, 70] x [1, 2, 3]
 */
+
+WriteLine("Multiplicando Arrays, com tratamento de excessões: ");
+WriteLine();
 
 static int[] MultiplyVet( int[] arrayF, int[] arrayJ){
     try{
@@ -83,6 +95,12 @@ int[] array2 = MultiplyVet(vetA, vetB);
 int[] array3 = MultiplyVet(vetFoo, vetBar);
 int[] array4 = MultiplyVet(vetX, vetY);
 
+WriteLine();
+WriteLine();
+WriteLine("------------------------------------------");
+WriteLine();
+Thread.Sleep(2000);
+
 /*
 Acompanhamento leitura
 
@@ -92,6 +110,9 @@ O método que verifica o progresso de leitura do livro deve retornar o valor per
 
 Demonstrar todos os métodos instanciando livros e leitor, criando uma classe main para executar e imprimir todos os resultados de alterações dos métodos.
 */
+
+WriteLine("Acompanhando leitura");
+WriteLine();
 
 Write("Digite o nome do Leitor: ");
 string nome = ReadLine();
@@ -109,23 +130,28 @@ Leitor leitor = new Leitor(nome, livro) ;
 Write("Páginas lidas: ");
 livro.AdicionarPaginasLidas(int.Parse(ReadLine()));
 
+WriteLine();
+
 WriteLine($"Nome:{leitor.Nome}");
 foreach (var obj in leitor.EstanteLivros){
     WriteLine($"TÍTULO: {obj.Titulo}, QTDE PÁGINAS: {obj.QtdPagina}, PÁGINAS LIDAS: {obj.PaginasLidas}, "
             + $"PROGRESSO: ({obj.VerificaProgresso().ToString("F0")}%)");
 }
 
+WriteLine();
 
+WriteLine("Removendo livro estante...");
+Thread.Sleep(1000);
 leitor.RemoverLivro(livro);
-foreach (var obj in leitor.EstanteLivros){
-    if (obj == null){
-        WriteLine("Estante vazia.");
-    }
-    else{
-        WriteLine($"TÍTULO: {obj.Titulo}, QTDE PÁGINAS: {obj.QtdPagina}, PÁGINAS LIDAS: {obj.PaginasLidas}, "
-                + $"PROGRESSO: ({obj.VerificaProgresso().ToString("F0")}%)");
-    }
+
+if (leitor.EstanteLivros.Count() == 0){
+    WriteLine("Estante, vazia.");
 }
+
+WriteLine();
+WriteLine("------------------------------------------");
+WriteLine();
+Thread.Sleep(2000);
 
 /*
 Personagens RPG
@@ -140,45 +166,74 @@ Mago: ( Inteligência / 2 * Level² ) + numeroRandomico( 0 até 180).
 Guerreiro: ( Força / 2 * Level² ) + numeroRandomico( 0 até 180 )
 */
 
-WriteLine("Bem vindo ao Jogo.");
-WriteLine("O que deseja realiza? \n"
-    + "1 - Adicionar novo personagem \n"
-    + "2 - Selecionar um novo personagem \n");
-int  acao = int.Parse(ReadLine());
-switch(acao){
-    case 1: 
-        Write("Digite o tipo: [1] - Mago / [2] - Guerreiro ");
-        int tipoPersonagem = int.Parse(ReadLine());
-        switch(tipoPersonagem){
+Mago mago;
+Guerreiro guerreiro;
+
+WriteLine("Jogo RPG.");
+WriteLine();
+
+Write("Qual personagem? [1] - Mago / [2] - Guerreiro: ");
+int tipoPersonagem = int.Parse(ReadLine());
+switch(tipoPersonagem){
+case 1:
+    Write("Nome do mago: ");
+    string nomeMago = ReadLine();
+    mago = new Mago(nomeMago) ;
+    while (true){    
+        Write("Qual ação? [1]- Dados / [2] - Aprender nova magia / [3] - Atacar [4] - Subir de nível / [5] - fim: ");
+        int acao = int.Parse(ReadLine());
+        switch (acao){
             case 1:
-                Write("Nome do mago: ");
-                string nomeMago = ReadLine();
-                Mago mago = new Mago(nomeMago) ;
-                Write("Sucesso.");
+                WriteLine(mago);
                 break;
             case 2:
-                Write("Nome do guerreiro: ");
-                string nomeGuerreiro = ReadLine();
-                Guerreiro guerreiro = new Guerreiro(nomeGuerreiro);
-                Write("Sucesso. ");
+                Write("Qual magia? ");
+                string magia = ReadLine();
+                mago.AprenderMagia(magia);
                 break;
+            case 3:
+                WriteLine(mago.Attack());
+                break;
+            case 4:
+                WriteLine("Level Up...");
+                mago.LvLUp();
+                break;
+            case 5:
+                return;
         }
-        break;
-    case 2: 
-        Write("Digite o tipo: [1] - Mago / [2] - Guerreiro ");
-        tipoPersonagem = int.Parse(ReadLine());
-        switch(tipoPersonagem){
+    }
+case 2:
+    Write("Nome do guerreiro: ");
+    string nomeGuerreiro = ReadLine();
+    guerreiro = new Guerreiro(nomeGuerreiro);
+    while (true){
+        Write("Qual ação? [1]- Dados / [2] - Aprender nova habilidade / [3] - Atacar  / [4] - Subir de nível / [5] - fim: ");
+        int acao = int.Parse(ReadLine());
+        switch (acao){
             case 1:
-                Write("Nome do mago: ");
-                string nomeMago = ReadLine(); 
-                Write("Sucesso.");
-                break;
-            case 2:
-                Write("Nome do guerreiro: ");
-                string nomeGuerreiro = ReadLine();
-                Guerreiro guerreiro = new Guerreiro(nomeGuerreiro);
-                Write("Sucesso. ");
-                break;
+            WriteLine(guerreiro);
+            WriteLine();
+            break;
+        case 2:
+            Write("Qual habilidade? ");
+            string habilidade = ReadLine();
+            guerreiro.AprenderHabilidade(habilidade);
+            WriteLine();
+            break;
+        case 3:
+            WriteLine(guerreiro.Attack());
+            WriteLine();
+            break;
+        case 4:
+            WriteLine("Level Up...");
+            guerreiro.LvLUp();
+            break;
+        case 5:
+            return;
         }
-    break;
+    } 
 }
+
+WriteLine();
+WriteLine("------------------------------------------");
+WriteLine();

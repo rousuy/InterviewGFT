@@ -14,9 +14,11 @@ namespace teste2.Src.Entities.JogoRpg
 
         // MÉTODOS
         public override void LvLUp()
-        {
-            this.Forca += 1;
-            this.Vida += 1;
+        {   this.Level += 1;
+            this.Forca += 2;
+            this.Vida += 2;
+            this.Mana += 1;
+            this.Inteligencia += 1;
         }
 
         public void AprenderHabilidade(string habilidade){
@@ -29,7 +31,20 @@ namespace teste2.Src.Entities.JogoRpg
             float pontos = (float)((this.Forca / 2) * Math.Pow(this.Level,2)) + randInt;
             this.Xp += pontos;
             return $"{this.Nome} ganhou {pontos} pontos"; 
+        }
 
-        }    
-    }
+        public override string ToString(){
+            return "=================================\n" 
+                + "DADOS DO PERSONAGEM: \n"
+                + "=================================\n"
+                + $"NOME: {this.Nome}\n"
+                + $"FORÇA: {this.Forca}\n"
+                + $"LEVEL: {this.Level}\n"
+                + $"VIDA: {this.Vida}\n"
+                + $"MANA: {this.Mana}\n"
+                + $"INTELIGÊNCIA: {this.Inteligencia}\n"
+                + $"XP: {this.Xp} pontos.\n"
+                + $"================================\n";
+        }
+    }     
 }
