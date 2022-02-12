@@ -19,3 +19,5 @@ jobs:
         dotnet-version: 6.0.x
     - name: Build with dotnet
       run: dotnet build teste3.sln --configuration Release
+    - name: Test with dotnet 
+      run: dotnet test teste3.sln --configuration Release
