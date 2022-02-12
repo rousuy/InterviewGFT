@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcompanhandoLeitura", "AcompanhandoLeitura\AcompanhandoLeitura.csproj", "{6CAF8CDB-9C17-4847-9534-C0B867645080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoRpg", "JogoRpg\JogoRpg.csproj", "{D51C3BF4-6D55-40B9-85A8-050084A3381A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicandoArray", "MultiplicandoArray\MultiplicandoArray.csproj", "{6138BDA7-1B2B-4E51-B3E2-EE6C3CD50449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumAleatorio", "NumAleatorio\NumAleatorio.csproj", "{08DE3B7C-BFDF-4407-9AB5-369020E08961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,23 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CAF8CDB-9C17-4847-9534-C0B867645080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAF8CDB-9C17-4847-9534-C0B867645080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAF8CDB-9C17-4847-9534-C0B867645080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAF8CDB-9C17-4847-9534-C0B867645080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51C3BF4-6D55-40B9-85A8-050084A3381A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51C3BF4-6D55-40B9-85A8-050084A3381A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51C3BF4-6D55-40B9-85A8-050084A3381A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51C3BF4-6D55-40B9-85A8-050084A3381A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6138BDA7-1B2B-4E51-B3E2-EE6C3CD50449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6138BDA7-1B2B-4E51-B3E2-EE6C3CD50449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6138BDA7-1B2B-4E51-B3E2-EE6C3CD50449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6138BDA7-1B2B-4E51-B3E2-EE6C3CD50449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08DE3B7C-BFDF-4407-9AB5-369020E08961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DE3B7C-BFDF-4407-9AB5-369020E08961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DE3B7C-BFDF-4407-9AB5-369020E08961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DE3B7C-BFDF-4407-9AB5-369020E08961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
