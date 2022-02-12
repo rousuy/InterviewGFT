@@ -1,0 +1,15 @@
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/bin/Debug/net6.0/NumAleatorio
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/bin/Debug/net6.0/NumAleatorio.deps.json
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/bin/Debug/net6.0/NumAleatorio.runtimeconfig.json
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/bin/Debug/net6.0/NumAleatorio.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/bin/Debug/net6.0/ref/NumAleatorio.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/bin/Debug/net6.0/NumAleatorio.pdb
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/NumAleatorio.csproj.AssemblyReference.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/NumAleatorio.GeneratedMSBuildEditorConfig.editorconfig
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/NumAleatorio.AssemblyInfoInputs.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/NumAleatorio.AssemblyInfo.cs
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/NumAleatorio.csproj.CoreCompileInputs.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/NumAleatorio.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/ref/NumAleatorio.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/NumAleatorio.pdb
+/home/rodrigo/Documents/Development/entrevistas/teste3/NumAleatorio/obj/Debug/net6.0/NumAleatorio.genruntimeconfig.cache

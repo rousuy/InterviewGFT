@@ -1,0 +1,15 @@
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/MultiplicandoArray.csproj.AssemblyReference.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/MultiplicandoArray.GeneratedMSBuildEditorConfig.editorconfig
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/MultiplicandoArray.AssemblyInfoInputs.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/MultiplicandoArray.AssemblyInfo.cs
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/MultiplicandoArray.csproj.CoreCompileInputs.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/bin/Debug/net6.0/MultiplicandoArray
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/bin/Debug/net6.0/MultiplicandoArray.deps.json
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/bin/Debug/net6.0/MultiplicandoArray.runtimeconfig.json
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/bin/Debug/net6.0/MultiplicandoArray.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/bin/Debug/net6.0/ref/MultiplicandoArray.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/bin/Debug/net6.0/MultiplicandoArray.pdb
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/MultiplicandoArray.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/ref/MultiplicandoArray.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/MultiplicandoArray.pdb
+/home/rodrigo/Documents/Development/entrevistas/teste3/MultiplicandoArray/obj/Debug/net6.0/MultiplicandoArray.genruntimeconfig.cache

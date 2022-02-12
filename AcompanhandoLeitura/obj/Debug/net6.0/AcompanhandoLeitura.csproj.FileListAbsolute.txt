@@ -1,0 +1,15 @@
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/AcompanhandoLeitura.csproj.AssemblyReference.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/AcompanhandoLeitura.GeneratedMSBuildEditorConfig.editorconfig
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/AcompanhandoLeitura.AssemblyInfoInputs.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/AcompanhandoLeitura.AssemblyInfo.cs
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/AcompanhandoLeitura.csproj.CoreCompileInputs.cache
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/bin/Debug/net6.0/AcompanhandoLeitura
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/bin/Debug/net6.0/AcompanhandoLeitura.deps.json
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/bin/Debug/net6.0/AcompanhandoLeitura.runtimeconfig.json
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/bin/Debug/net6.0/AcompanhandoLeitura.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/bin/Debug/net6.0/ref/AcompanhandoLeitura.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/bin/Debug/net6.0/AcompanhandoLeitura.pdb
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/AcompanhandoLeitura.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/ref/AcompanhandoLeitura.dll
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/AcompanhandoLeitura.pdb
+/home/rodrigo/Documents/Development/entrevistas/teste3/AcompanhandoLeitura/obj/Debug/net6.0/AcompanhandoLeitura.genruntimeconfig.cache
