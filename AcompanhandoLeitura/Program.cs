@@ -21,7 +21,7 @@ int qtdePaginas = int.Parse(ReadLine());
 
 Livro livro = new Livro(titulo, qtdePaginas);
 
-Leitor leitor = new Leitor(nome, livro) ;
+Leitor leitor = new Leitor(nome, livro);
 
 Write("Páginas lidas: ");
 livro.AdicionarPaginasLidas(int.Parse(ReadLine()));
@@ -29,7 +29,8 @@ livro.AdicionarPaginasLidas(int.Parse(ReadLine()));
 WriteLine();
 
 WriteLine($"Nome:{leitor.Nome}");
-foreach (var obj in leitor.EstanteLivros){
+foreach (var obj in leitor.EstanteLivros)
+{
     WriteLine($"TÍTULO: {obj.Titulo}, QTDE PÁGINAS: {obj.QtdPagina}, PÁGINAS LIDAS: {obj.PaginasLidas}, "
             + $"PROGRESSO: ({obj.VerificaProgresso().ToString("F0")}%)");
 }
@@ -40,6 +41,7 @@ WriteLine("Removendo livro estante...");
 Thread.Sleep(1000);
 leitor.RemoverLivro(livro);
 
-if (leitor.EstanteLivros.Count() == 0){
+if (leitor.EstanteLivros.Count() == 0)
+{
     WriteLine("Estante, vazia.");
 }

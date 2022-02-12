@@ -9,11 +9,14 @@ peça para ele entrar com outro número até que acerte o número gerado aleator
 WriteLine("Acerte o número");
 WriteLine();
 
-static bool IsEqual(int randInt, int userInt){
-    if (randInt == userInt){
+static bool IsEqual(int randInt, int userInt)
+{
+    if (randInt == userInt)
+    {
         return true;
     }
-    else{
+    else
+    {
         return false;
     }
 }
@@ -24,7 +27,8 @@ int randInt = rand.Next(0, 10);
 Write("Número: ");
 int userInt = int.Parse(ReadLine());
 
-while (!IsEqual(randInt, userInt)){
+while (!IsEqual(randInt, userInt))
+{
     Write("ERROU! Digite novamente: ");
     userInt = int.Parse(ReadLine());
 }
